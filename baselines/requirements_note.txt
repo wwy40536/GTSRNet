@@ -1,0 +1,12 @@
+Required in the existing project environment:
+torch
+numpy
+h5py
+pandas
+scikit-learn
+matplotlib
+einops
+reformer-pytorch
+
+No new package should be installed if the original GTSRNet environment already
+passes its preflight check.

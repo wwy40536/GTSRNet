@@ -1,0 +1,4 @@
+Use the same environment as the original GLSTTN project.
+Required imports: torch, numpy, h5py, matplotlib, pandas, scikit-learn,
+reformer-pytorch, einops.
+No new package is required beyond dependencies already used by GTSRNet.
