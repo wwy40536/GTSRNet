@@ -1,3 +1,0 @@
-Use the same Python environment that trained GTSRNet.
-Required packages: torch, numpy, matplotlib, h5py.
-No additional model training is performed.
