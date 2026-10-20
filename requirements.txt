@@ -1,0 +1,16 @@
+# Reference installation profile (direct dependencies), not the original server freeze.
+# Python 3.9; see README.md before installing into an existing experiment environment.
+# Install the appropriate official torch CPU/CUDA wheel first, then run:
+#   python -m pip install -r requirements.txt
+# Transitive dependencies are resolved by pip; export the actual server environment
+# with tools/export_environment.py after validation.
+torch==2.6.0
+numpy==1.26.4
+h5py==3.11.0
+pandas==2.2.3
+scikit-learn==1.5.2
+scipy==1.13.1
+matplotlib==3.9.2
+Pillow==10.4.0
+einops==0.8.0
+reformer-pytorch==1.4.4

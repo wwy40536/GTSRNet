@@ -1,0 +1,61 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Editors, credentials and local machine settings
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# Datasets, model weights and large prediction/analysis arrays
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+/dataset/crawled_feature.csv
+
+# Raw run outputs. Curated small tables may be committed to results_summary/.
+/results/
+/results_*/
+!/results_summary/
+/outputs/
+/outputs_*/
+/outputs_v2/
+/outputs_v2_centered/
+/full_v2_prediction_exports/
+/full_v2_prediction_figures/
+/full_v2_taylor_*/
+/decoder_mean_curves_4runs/
+/horizon_growth_selected_4v4/
+/spatial_figures_milan_internet/
+/baseline_extra_metrics_summary/
+
+# Archives, temporary backups and remote development remnants
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.log
+*.bak
+*.tmp
+*.swp
+/all_result_zips_unpacked_0930/
+/remote_pycharm/
+
+# Do not blanket-ignore CSV/JSON, Markdown, Python files or all image files.
+# .gitignore only affects untracked files; it does not remove existing Git history.
